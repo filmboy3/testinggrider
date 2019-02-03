@@ -8,6 +8,10 @@ beforeEach(() => {
   wrapped = mount(<CommentBox />);
 });
 
+afterEach(() => {
+  wrapped.unmount();
+});
+
 it("has a text area and a button", () => {
   wrapped = mount(<CommentBox />);
 
