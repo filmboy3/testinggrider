@@ -16,7 +16,7 @@ afterEach(() => {
   moxios.uninstall();
 });
 
-it("can fetch a list of comments and display them", done => {
+xit("can fetch a list of comments and display them", done => {
   // Attempt to render the *entire* app
   const wrapped = mount(
     <Root>
